@@ -169,10 +169,8 @@ def locations_destroyed():
 def location_assignment(starting_spaces, destroyed_spaces,
                         mandatory_town_locations, possible_town_locations):
     """Assign a location to each space."""
-    locations = []
+    locations = mandatory_town_locations
     available_spaces = starting_spaces - destroyed_spaces
-    for i in mandatory_town_locations:
-        locations.append(i)
     locations.append(random.sample(possible_town_locations, (available_spaces
                      - len(locations))))
     for d in range(0, destroyed_spaces):
