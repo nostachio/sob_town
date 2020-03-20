@@ -5,13 +5,13 @@ Defines functions for each day in town.
 import random
 import sys
 import textwrap
-import game_data
 import json
 
 
 def initialize_daily_event_deck():
     """Set deck to initial deck."""
-    initialized_event_deck = game_data.daily_event_deck
+    with open("daily_events.json") as daily_event_deck_json:
+        initialized_event_deck = json.load(daily_event_deck_json)
     return initialized_event_deck
 
 
@@ -50,7 +50,7 @@ def draw_daily_event(daily_event_deck):
     if len(daily_event_deck) == 0:
         daily_event_deck = initialize_daily_event_deck()
     event = random.sample(daily_event_deck, 1)
-    return event, daily_event_deck
+    return event[0], daily_event_deck
 
 
 def day_in_town_start(daily_event_deck, town_type):
@@ -71,7 +71,6 @@ def end_of_day_prompt(days_since_last_event):
      card")
     print()
     quit = input("Press enter when the day is over.  Type quit to exit.")
-    print()
     if quit == "quit":
         sys.exit
     days_since_last_event = day_in_town_end(days_since_last_event)

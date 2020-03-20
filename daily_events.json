@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Just another day on the frontier",
+    "flavor_text": "It's just another day on the frontier of the wild west... death and adventure around every corner!",
+    "effect_text": "No effect."
+  },
+  {
+    "title": "Hangin'",
+    "flavor_text": "As the sun burns overhead, an outlaw is marched out to the wooden gallows in front of the courthouse.  With the pull of a lever and the snap of a rope, one more soul goes to meet its maker as the crowd looks on.",
+    "effect_text": "All heroes in town may recover 1 grit."
+  },
+  {
+    "title": "Strange lights overhead",
+    "flavor_text": "A bad omen to be sure!",
+    "effect_text": "Any heroes that choose to stay at the camp site today may onle roll a single d8 on the Camp Site Hazard Chart instead of the normal 2d6."
+  },
+  {
+    "title": "We found somethin'!",
+    "flavor_text": "Buried in the sand!  Come take a look!  I ain't never seen nothing like it!",
+    "effect_text": "Each hero may make a Lore 4+ test to investigate.  Gain 10 XP for every 4+ rolled.  If you roll any 1s, take d6 horror hits.  If you roll at least one 6, you also discover that the miners have found something of value and are willing to sell it to you.  Draw a World Card to see where the object is from, then draw an Artifact card from that world.  You may purchase the artifact for d6 x $50."
+  },
+  {
+    "title": "High noon",
+    "flavor_text": "Having a run in with one of the rougher looking locals, you find yourself challenged to a duel in the streets... at high noon!",
+    "effect_text": "One random hero must give up their day in town and immediately play the High Noon Duel (Solo) Mission.  Alternatively, that hero may duck out the back door and run for it, ending their town stay and starting the next adventure with no grit."
+  },
+  {
+    "title": "Traveling tonic wagon",
+    "flavor_text": "Rolling into town, a traveling tonic salesman opens up the sides of his cart to show his wares!",
+    "effect_text": "Each hero may purchase up to 3 Tonic Tokens at a cost of $100 each.  Afterward, roll a die for each Tonic Taken purchased.  On the roll of 1 or 2, that taken is little more than snake oil and is worthless (discard it)."
+  },
+  {
+    "title": "Wounded soldiers",
+    "flavor_text": "The town is filled with wounded soldiers that marched in this morning from a nearby battle!  They are the last remnants of their division, overrun by horrors from beyond.",
+    "effect_text": "Each hero may give up their day in town to help the wounded.  Make a Lore 3+ test and gaing 10 XP for every 3+ rolled.  If at least one 6 is rolled, you may also draw a Gear card, as a dying soldier passes something on to you."
+  },
+  {
+    "title": "Heavy rain",
+    "flavor_text": "A brutal rain hammers the town, flooding the streets with mud and soaking to the bone any who dare set foot outside.",
+    "effect_text": "All rolls on a Location Event Chart in town today are -1 to the roll (minimum of 2)."
+  },
+  {
+    "title": "Just another day on the frontier.",
+    "flavor_text": "It's just another day on the frontier of the wild west... death and adventure around every corner!",
+    "effect_text": "No effect."
+  },
+  {
+    "title": "Persecution",
+    "flavor_text": "Filled with hate for the accursed Mutant, the Townsfolk form an angry mob and begin scouring the town to find and punish the unclean outsiders they have heard rumor of!",
+    "effect_text": "(This event is canceled if there is a Mutant Quarter in Town)  Every hero must roll a d6 for each mutation they currently have.  If any of these dice roll a 1, you have been discovered by the mob and must flee town to escape a lynching!  Your town stay is immediately over."
+  },
+  {
+    "title": "Wide open skies",
+    "flavor_text": "The big, blue sky has opened up and the sun is shining across the land.  This seems to be a respite from the Darkness... at least for the moment.",
+    "effect_text": "All rolls on a Location Event Chart in town today are +1 to the roll (max of 12)."
+  },
+  {
+    "title": "Market prices up",
+    "flavor_text": "Supplies ar erunning short since the last demonic attack!  Everyone is a little spooked, trying to gear up before the next wave hits.",
+    "effect_text": "All prices in town today are +$10"
+  },
+  {
+    "title": "Just another day on the frontier.",
+    "flavor_text": "It's just another day on the frontier of the wild west... death and adventure around every corner!",
+    "effect_text": "No effect."
+  },
+  {
+    "title": "Just another day on the frontier.",
+    "flavor_text": "It's just another day on the frontier of the wild west... death and adventure around every corner!",
+    "effect_text": "No effect."
+  },
+  {
+    "title": "Mob riot",
+    "flavor_text": "The townsfolk are fed up with the local authority and have begun to riot in the streets!",
+    "effect_text": "Each hero may attempt to help quell the riot by making a Strength 4+ test.  If failed, the hero is knocked over the head by the crowd, taking d6 wounds (ignoring defense) and may do nothing else during this day in town.  If passed, the hero gains 20 XP and may choose one building in town to protect.  Roll a d6 for each building in town that was not protected.  On the roll of 1 or 2, that building is destroyed in the riot."
+  },
+  {
+    "title": "Market prices down",
+    "flavor_text": "Time has passed since the last demonic attack and everyone is a little more at ease.",
+    "effect_text": "All prices in town today are -$10 (to a minimum of $10)"
+  }
+]
