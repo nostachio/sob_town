@@ -38,7 +38,7 @@ possible_town_locations = ["Blacksmith",
                            ]
 
 
-def town_spaces(town_size):
+def town_spaces(town_size, town_type):
     """Define the number of spaces for a town of a particular size."""
     if town_size == "small":
         spaces_available = 4
@@ -46,6 +46,8 @@ def town_spaces(town_size):
         spaces_available = 6
     if town_size == "large":
         spaces_available = 8
+    if town_type == "River Town":
+        town_size += 1
     return spaces_available
 
 
@@ -181,11 +183,9 @@ def location_assignment(starting_spaces, destroyed_spaces,
 def generate_town(town_size, town_type):
     """Generate the town."""
     destroyed_spaces = locations_destroyed()
-    if town_type == "River Town":
-            town_size += 1
     mandatory_town_locations, possible_town_locations =\
         town_location_adjustment(town_type)
-    assigned_locations = location_assignment(town_spaces(town_size),
+    assigned_locations = location_assignment(town_spaces(town_size, town_type),
                                              destroyed_spaces,
                                              mandatory_town_locations,
                                              possible_town_locations)
