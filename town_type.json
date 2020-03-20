@@ -15,11 +15,11 @@
     [
       {
         "title": "Help to Rebuild",
-        "text": ""
+        "text": "Any hero may give up their day in town to help in rebuilding the settlement.  Make a Strength 4+ test.  For every 4+ rolled, the hero gains 25XP.  For every 1 rolled, the hero takes d3 wounds (ignoring defense) from the back-breaking construction work.  If at least one 6 was rolled, the hero may also recover a grit.  A hero may not work two days in a row on rebuilding."
       },
       {
         "title": "Search the Rubble",
-        "text": ""
+        "text": "Any hero may give up their day in town to search the rubble of one of the destroyed locations in town.  Place your hero on the selected location and roll a scavent test.  If successful, place a scavenge marker on the location and draw 2 Scavenge cards for each 6 rolled.  For any Gear or Artifact card gained from scavenging, you may either draw a card as normal or acquire any single item normally available from the destroyed location with a value of d6x$100 or less (or d6x$250 if an artifact).  For any Darkness or Growing Dread cards that would be drawn, instead move the Darkness marker forward a day on the Town Event Track for each.  Each destroyed location may be scavenged up to 3 times during this town stay."
       }
     ],
     "town_type_daily_events":
@@ -27,32 +27,32 @@
       {
         "roll": 1,
         "title": "Cult Uprising",
-        "text": ""
+        "text": "\"This is punishment for our sins!\"  A band of Death Cult Fanatics lashes out at any who bear the mark of the Void!  Every hero takes d6 hits for each mutation they have.  These hits do 2 damage each."
       },
       {
         "roll": 2,
         "title": "Location Rebuilt",
-        "text": ""
+        "text": "The destroyed location with the fewest scavenge markers (random if tied) is rebuilt."
       },
       {
         "roll": 3,
         "title": "Construction Accident",
-        "text": ""
+        "text": "Heroes may not Help to Rebuild or Search the Rubble today."
       },
       {
         "roll": 4,
         "title": "Movement in the Rubble",
-        "text": ""
+        "text": "There is movement amongst the wreckage!  Roll a d6.  On the roll of 3+, another survivor has been found!  All heroes in town gaing 50XP.  On the roll of 1 or 2, another mass of tentacles erupts from below smashing another building before being slain.  A random building is destroyed."
       },
       {
         "roll": 5,
         "title": "Dust Storm",
-        "text": ""
+        "text": "A dust storm sweeps through the ruins of the town.  Every hero in town must lose a grit (or take d6 hits if they have no grit)."
       },
       {
         "roll": 6,
         "title": "What Lies Beneath",
-        "text": ""
+        "text": "All heroes that Search the Rubble today roll double the number of dice for their scavenge test."
       }
     ]
   },
@@ -60,16 +60,16 @@
     "roll": [3],
     "name": "Haunted Town",
     "tags": ["town", "cursed", "ghost", "strange"],
-    "flavor_text": "",
+    "flavor_text": "Some towns have a dark history that they never can truly escape.  In some cases, this shadowy past comes back to haunt them... literally!",
     "special_rules":
     [
       {
         "title": "Angry Ghosts",
-        "effect_text": ""
+        "effect_text": "At the end of each day in town, every hero must make a Spirit 5+ test as they are assaulted by malevolent spectres in the night!  If passed, gain 10XP.  If failed, take d6 horror hits.  Also, for every 1 a hero rolls during the Spirit test, they also take 1 corruption hit as they are tainted by the curse of the town's dark past."
       },
       {
         "title": "Breaking the Curse",
-        "effect_text": ""
+        "effect_text": "For the next adventure, the heroes may go an a hunt to try and break the curse affecting the town (unless the town is destroyed).  To do this, play the Search Party mission.  Instead of looking for a missing townsfolk, the heroes are trying to break the curse.  At the end of the mission, roll to see if it is too late as normal.  If it is too late, the mission counts as failed.  If not, the mission is successfully completed and each hero gaings the 50XP and may draw a Gear card as a reward from the grateful town's people!"
       }
     ],
     "town_type_daily_events":
@@ -77,39 +77,39 @@
       {
         "roll": 1,
         "title": "Possession",
-        "text": ""
+        "text": "One random hero is possessed by a spiteful entity.  That hero loses their day in town today, while they shoult about the horrors to come and go through a rough exorcism to banish the spirit!  At the start of the next adventure, add d3 Growing Dread cards to the stack."
       },
       {
         "roll": 2,
         "title": "Moving Sale",
-        "text": ""
+        "text": "One random hero may draw the top d3 Gear cards from the deck and may purchase any of them for their listed value (treat any with no listed value as being worth $50)."
       },
       {
         "roll": 3,
         "title": "Vicious Spectres",
-        "text": ""
+        "text": "When rolling for the Angry Ghosts at the end of the day today, heroes must pass a Spirit 6+ test or take 2d6 horror hits."
       },
       {
         "roll": 4,
         "title": "Sickly Mist",
-        "text": ""
+        "text": "A smelly, green fog rolls into town, bringing with it shadows moving just beyond sight.  Best to stay indoors tonight!  Any hero staying at the Camp Site today only rolls 1d6 on the chart."
       },
       {
         "roll": 5,
         "title": "Warning from Beyond",
-        "text": ""
+        "text": "A shimmering spirit appears to one of the heroes and warns of the danger to come!  During the next adventure, the heroes may cancel one Darkness card for free."
       },
       {
         "roll": 6,
         "title": "Weeping Statue",
-        "text": ""
+        "text": "A sign of the darkness to come!  All heroes must make a Lore 5+ test.  If passed, recover one grit.  If failed, take 2d6 horror hits."
       }
     ],
     "extra_options": 
     [
       {
         "title": "Buy Cursed Artifacts",
-        "text": ""
+        "text": "Limit once per town stay.  There are plenty of folks in town that want to sell off old items they believe to be cursed!  You might be able to find quite a deal!  Besides, what are the chances that the curse is real? [See town card for chart.]"
       }
     ]
   },
@@ -117,16 +117,16 @@
     "roll": [4],
     "name": "Plague Town",
     "tags": ["town", "cursed", "plague"],
-    "flavor_text": "",
+    "flavor_text": "When a town is hit by a cursed plague, it is more than just its people that fall ill.  The wood begins to rot, metal begins to rust, and stone to crumble as the supernatural death lingers in the air.",
     "special_rules":
     [
       {
         "title": "Keep Your Distance",
-        "effect_text": ""
+        "effect_text": "Unwanted Attention markers are ignored while in a Plague Town."
       },
       {
         "title": "The Plague",
-        "effect_text": ""
+        "effect_text": "Any time a hero rolls a 7 on a location Event Chart, that hero has a brush with the Plague!  Roll a d6:\n1: Roll once on the Injury Table\n2: Discard 1 item or d3 Side Bag Tokens as they rot away before your eyes\n3-4: Take d6 wounds, ignoring defense\n5-6: take 2d6 horror hits as you witness the ghastly effects all around you"
       }
     ],
     "town_type_daily_events":
@@ -134,43 +134,43 @@
       {
         "roll": 1,
         "title": "Bring Out Yer Dead!",
-        "text": ""
+        "text": "The disease-ridden bodies yet to be burned are rising back up as plague zombies!  Immediately roll once on the Town Event Chart.  Do not reset the Darkness back to day 1."
       },
       {
         "roll": 2,
         "title": "Building Decay",
-        "text": ""
+        "text": "Rickety and rotten, one of the more decayed buildings in town collapses!  A random building is destroyed."
       },
       {
         "roll": 3,
         "title": "The Sisters of Sorrow",
-        "text": ""
+        "text": "Arriving in their white coaches, the Sisters of Sorrow bring compassion and failth to the forsaken.  Every hero in town may choose one of their injuries or mutations and make a Spirit 6+ test.  If passed, it is healed."
       },
       {
         "roll": 4,
         "title": "It's the End of Days",
-        "text": ""
+        "text": "A band of Death Cult Fanatics, carrying signs and torches, march through town, setting fire to buildings to purge the unclean!  Each hero may roll an Agility 4+ test to help put out the fires.  For each 4+ rolled, choose 1 location to protect.  Any locations not protected by the heroes are destroyed in the fire."
       },
       {
         "roll": 5,
         "title": "Dire Strain",
-        "text": ""
+        "text": "When rolling on the Plague chart, heroes must now subtract 1 from their roll (minimum 1)."
       },
       {
         "roll": 6,
         "title": "Seen the Worst of It",
-        "text": ""
+        "text": "The doctors have found an effective treatment!  Heroes in town no longer need to roll for the Plague when rolling a 7 on a Location Event Chart."
       }
     ],
     "extra_options": 
     [
       {
         "title": "Tend to the Sick",
-        "text": ""
+        "text": "Any hero may give up their day in town to give aid to the victims of the plague.  Make a Cunning 4+ test.  For every 4+ rolled, the hero gains 25XP.  If at least one 6 is rolled, the hero may also draw a Gear card, passed on to them from a dying victim.  For every 1 rolled, the hero takes d6 wounds, ignoring defense.\nA hero may not tend to the sick two days in a row."
       },
       {
         "title": "Experimental Medical Supplies",
-        "text": ""
+        "text": "The following items are avaialable to purchase at the Doc's Office:\nDark Stone Salve - $500/gear/medical.  Limit one per town stay.  One Dark Stone icon.  Discard to heal one injury or mutation on a d6 roll of 3+\nPlague Leeches - $200/gear/medical/creature/Limit One\nDiscard to remove d6 corruption points.  If a 1 or 2 was rolled, take d6 wounds (ignoring defense) as well."
       }
     ]
   },
@@ -178,16 +178,16 @@
     "roll": [5],
     "name": "Rail Town",
     "tags": ["town", "train", "transit"],
-    "flavor_text": "",
+    "flavor_text": "Many towns on the frontier are connected by a network of rail line, with trains bringing fresh supplies, fresh faces, and news from back East on a daily basis.",
     "special_rules":
     [
       {
         "title": "Fresh Supplies",
-        "effect_text": ""
+        "effect_text": "At the start of every day in town, each hero may draw a Gear card that is a special deal they find offered by a street vendor.  This card may be purchased by that hero for its listed value +$100 (treat no listed value as $0).  If not purchased, discard that Gear card."
       },
       {
         "title": "Rail Travel",
-        "effect_text": ""
+        "effect_text": "When finished in town, you may take a train to a different area.  If rolling randomly for your next mission, you may roll twice and choose which mission to undertake.  Also, each hero may start the next adventure fully healed in both health and sanity."
       }
     ],
     "town_type_daily_events":
@@ -195,43 +195,43 @@
       {
         "roll": 1,
         "title": "The Hell Train",
-        "text": ""
+        "text": "Rocketing through town in the night, the demonic Hell Train blows its whistle and sets the tracks ablaze in its wake!  Each hero in town loses 1 grit and takes d6 horror hits."
       },
       {
         "roll": 2,
         "title": "News Travels Fast",
-        "text": ""
+        "text": "A telegraph comes through the line from a neighboring town.  They are under attack and the demonic swarm is headed your way!  Move the Darkness marker 1 space forward on the Town Event Track."
       },
       {
         "roll": 3,
         "title": "U.S. Army Train",
-        "text": ""
+        "text": "A train arrives at the station carrying a fresh battalion of troops for the local fort.  You do not need to roll for a Town Event at the end of the current day in town."
       },
       {
         "roll": 4,
         "title": "Oh, They'll Pay",
-        "text": ""
+        "text": "The local rail baron tightens his grip on the town.  For the rest of this town stay, Gear cards from Fresh Supplies cost +$100 each."
       },
       {
         "roll": 5,
         "title": "Train Robbery",
-        "text": ""
+        "text": "A gang of bandits robs the 3:10 train to Lestina!  The telegraph lines are swamped with the news.  Heroes may not Send a Telegraph for the rest of this town stay."
       },
       {
         "roll": 6,
         "title": "Big City Reporter",
-        "text": ""
+        "text": "One random hero is approached by a reporter, looking for a story!  That hero may make a Lore 5+ test.  If passed, the reporter races off to the press to print your heroic tale!  Gain d6x10XP."
       }
     ],
     "extra_options": 
     [
       {
-        "title": "Send a Telegraph",
-        "text": ""
+        "title": "Send a Telegraph - $50",
+        "text": "Limit once per town stay.\nYou send a telegraph to a friend or relative back East, telling them of your adventures!  Make a Luck 4+ test.  If passed, you recieve a reply before your town stay is over - gain +1 sanity (permanently)."
       },
       {
         "title": "Rob the Train",
-        "text": ""
+        "text": "Outlaw only.  Limit once per town stay.\nMake an Agility 6+ test to ride out and rob the next train out of town.  Roll 2 extra dice if you have a Transport item.  If successful, for each 6+ rolled, gain d6x$100 and d6 Dark Stone.  For each 1 rolled, take 2d6 hits during the shoot out on the speeding train.  If failed, you are caught and arrested, set to hang in the morning.  Make a Cunning 4+ test to escape the jail and flee town (ending your town stay, gaining 20XP, and becoming Wanted).  If failed, you are hung at dawn and your hero is killed (though your posse may play the Hanging High town mission to rescue you from the gallows.)"
       }
     ]
   },
@@ -248,20 +248,20 @@
     "roll": [9],
     "name": "Mining Town",
     "tags": ["town", "resource", "mining"],
-    "flavor_text": "",
+    "flavor_text": "Boomtowns often spring up practically overnight in any area found to be rich in gold and Dark Stone!  These Mining Towns attract folk from all over, eager to find their fortune!",
     "special_rules":
     [
       {
         "title": "Well Supplied",
-        "effect_text": ""
+        "effect_text": "Everything sold at the General Store is -$25 (to a minimum of $25)."
       },
       {
         "title": "Rich Local Deposits",
-        "effect_text": ""
+        "effect_text": "The mines in this area are booming!  During the next adventure, while in the Mines, any time a hero finds gold, they gaing +$10 extra.  Any time a hero finds a Dark Stone, they gaing 1 extra shard."
       },
       {
         "title": "Void Activity",
-        "effect_text": ""
+        "effect_text": "The massive boom of local mining has uncovered countless new portals, releasing all manner of creatures and evil to find their way to the surface!  When rolling to see if there is a Town Event at the end of each day in town, roll an extra die.  Either roll (or both) may trigger a town event.  If a town event is triggered, set the Darkness back to day 1 on the track as normal."
       }
     ],
     "town_type_daily_events":
@@ -269,43 +269,43 @@
       {
         "roll": 1,
         "title": "Dark Stone Explosion",
-        "text": ""
+        "text": "As a cart of Dark Stone overturns in the street, a massive blast rips through the town!  d3 random locations are immediately destroyed and every hero takes 2d6 hits."
       },
       {
         "roll": 2,
         "title": "Dark Stone Overflowing",
-        "text": ""
+        "text": "Heroes may Purchase Dork Stone for only $100 per shard.  However, Dark Stone may not be sold anywhere in town for the rest of this town stay."
       },
       {
         "roll": 3,
         "title": "Blast Mining Accident",
-        "text": ""
+        "text": "Oops!  Several mines collapse in on the prospectors inside.  Most tools in town are brought to dig them out.  The Well Supplied discount at the General Store is no longer in effect for the rest of this town stay."
       },
       {
         "roll": 4,
         "title": "We Found Somethin' Strange",
-        "text": ""
+        "text": "Roll a d6.  On the roll of 1 or 2, destroy a random location as the ancient artifact overloads.  On the roll of 3+ draw a World card and then an Artifact from that World.  Any hero may purchase that Artifact for its listed value +$100 (if multiple heroes want it, highest initiative has priority.)"
       },
       {
         "roll": 5,
         "title": "Dust",
-        "text": ""
+        "text": "Heroes may not use grit in town today."
       },
       {
         "roll": 6,
         "title": "It Came from Down Deep",
-        "text": ""
+        "text": "The miners have released something really bad this time!  Immediately roll once on the Town Event Chart."
       }
     ],
     "extra_options": 
     [
       {
         "title": "Purchase Dark Stone",
-        "text": ""
+        "text": "Heroes may purchase Dark Stone shards at the cost of $150 each."
       },
       {
         "title": "Mining Tools",
-        "text": ""
+        "text": "The following items are available to purchase at the General Store\nDark Stone Pick - $800/gear/hand weapon\n1 Dark Stone icon.  One handed.  One upgrade slot.  One weight.  +1 Combat.  Once per turn, add +1 damage to one of your combat hits.\nSifting Pan - $300/gear/Limit One\nOnce per turn, you may cancel and re-draw a Scavenge card just drawn.  After each use, roll a d6.  Discard on the roll of 1."
       }
     ]
   },
@@ -313,16 +313,16 @@
     "roll": [10],
     "name": "River Town",
     "tags": ["town", "water", "transit"],
-    "flavor_text": "",
+    "flavor_text": "Known for being a center of trade and commerce, a River Town is a bustling hive of gamblers, merchants, and thieves!  Travelers come from far and wide to find the latest in exotic goods.",
     "special_rules":
     [
       {
         "title": "Wealthy Town",
-        "effect_text": ""
+        "effect_text": "All prices in town are +$10.  Also, whenever a hero gains gold from gambling, selling an item, or selling Dark Stone, they gain an extra $10."
       },
       {
         "title": "River Travel",
-        "effect_text": ""
+        "effect_text": "When finished in town, you may take a boat up river to a different area.  If rolling randomly for your next mission, you may roll twice and choose which mission to play.  Also, each hero may start the next adventure with 1 extra grit."
       }
     ],
     "town_type_daily_events":
@@ -330,43 +330,43 @@
       {
         "roll": 1,
         "title": "Overboard",
-        "text": ""
+        "text": "A random hero slips and falls into the river.  Make a Strength 5+ test.  If failed, discard the item you have with the most weight.  If multiple options, choose which is lost."
       },
       {
         "roll": 2,
         "title": "News from Down River",
-        "text": ""
+        "text": "Every hero in town gains 25XP for hearing the stories of terror."
       },
       {
         "roll": 3,
         "title": "Famous Gambler in Town",
-        "text": ""
+        "text": "Heroes that play any form of Poker in town today require an extra success on their skill test roll, but gain an extra d6x$100 if the test is passed."
       },
       {
         "roll": 4,
         "title": "There's Somthin' in the Water",
-        "text": ""
+        "text": "A massive kraken strangles the docks and River Boats with its crushing tentacles.  The Gambling Hall location is destroyed on a d6 roll of 1 or 2.  Also, any hero that works at the docks or visits the Street Market or Gambling Hall today takes d6 hits and gains d6x$25 for helping to battle the beast."
       },
       {
         "roll": 5,
         "title": "Flooding",
-        "text": ""
+        "text": "The river banks overflow as the waters rise.  Immediately move the Darkness marker 1 step forward on the Town Event Track."
       },
       {
         "roll": 6,
         "title": "I've Got Just What You Need",
-        "text": ""
+        "text": "For today only, all Black Market Alley items are sold for their printed value (i.e. ignore the extra d6x$25 extra cost)."
       }
     ],
     "extra_options": 
     [
       {
         "title": "Find Work on the Docks",
-        "text": ""
+        "text": "Any hero may give up their day in town to work at the docks, loading and unloading cargo.  Make a Strength 3+ test.  For every 3+ rolled, the hero gains $25.  For every 1 rolled, the hero takes d3 wounds, ignoring defense, from the back-breaking and dangerous work.  A hero may not work at the docks two days in a row."
       },
       {
         "title": "Black Market Alley",
-        "text": ""
+        "text": "At the start of the town stay, roll 3 dice.  For each roll, on 1-3, draw a Gear Card.  4-6, an Artifact from a random world.\nThese 3 items are available for purchase at the Street Market by any hero.  First come, first serve, using a higher luck and then a rolloff to determine priority.\nEach item may be purchased for d6x$25 + printed value (no value = $0).  d6x$25 is rolled separately for each item and changes every day.  This price already includes the +$10 for being in a River Town."
       }
     ]
   },
@@ -374,16 +374,16 @@
     "roll": [11],
     "name": "Mutant Town",
     "tags": ["town", "mutant", "strange"],
-    "flavor_text": "",
+    "flavor_text": "Shunned from society, those who have become mutated by the corrupting influence of the Void sometimes band together to form their own towns on the frontier.",
     "special_rules":
     [
       {
         "title": "Distrust",
-        "effect_text": ""
+        "effect_text": "Heroes do not gain Unwanted Attention markers for mutations they have.  Instead, any hero with no mutations gains 2 Unwanted Attention markers when they enter town."
       },
       {
         "title": "Something in the Water",
-        "effect_text": ""
+        "effect_text": "At the start of each day in town, every hero takes 1 corruption hit and then recovers 1 grit for use in town."
       }
     ],
     "town_type_daily_events":
@@ -391,43 +391,43 @@
       {
         "roll": 1,
         "title": "The Scafford Gang",
-        "text": ""
+        "text": "Notorious Mutant Outlaws, the Scafford Gang, ride into town looking for supplies and new recruits!  There are too many to fight.  Every hero must make a Cunning 4+ test to stay out of sight.  If failed, the hero is recognized by the gang and must flee town to avoid being killed."
       },
       {
         "roll": 2,
         "title": "You're Our Hero!",
-        "text": ""
+        "text": "A random hero with at least 1 mutation immediately gains 50XP and $200, celebrated by the locals as a champion of Mutant-kind."
       },
       {
         "roll": 3,
         "title": "What's Gotten into You Boy?",
-        "text": ""
+        "text": "Every hero must roll a d6 for each transport they have.  On a roll of 1 or 2, a festering evil has corrupted it from within and it must be discarded."
       },
       {
         "roll": 4,
         "title": "Tainted Well",
-        "text": ""
+        "text": "The town's well seems to be tainted, poisoning the drinking water with evil!  For the rest of the town stay, heroes take 1 extra corruption hit at the start of each day in town."
       },
       {
         "roll": 5,
         "title": "Mutant Plague",
-        "text": ""
+        "text": "A mutated form of the plague ravages the town!  Every hero immediately takes d3 wounds, ignoring defense, for each mutation they have."
       },
       {
         "roll": 6,
         "title": "Rejuvinating Spirits",
-        "text": ""
+        "text": "Each hero may remove d3 corruption points as they enjoy the down-home hospitality of the locals."
       }
     ],
     "extra_options": 
     [
       {
         "title": "Go to Work on the Cut",
-        "text": ""
+        "text": "Any hero may give up their day in town to work the Cut, helping to build the new rail line going in nearby.  Make a Strength 4+ test and add 1 die for each mutation they have.  For every 4+ rolled, the hero gains $30.  For every 1 rolled, the hero takes d3 wounds, ignoring defense, from the back-breaking and dangerous work.  A hero may not work two days in a row on the Cut."
       },
       {
         "title": "Railworker Supplies",
-        "text": ""
+        "text": "The following items are available to purchase at the Mutant Quarter:\nDark Stone Blasting Caps - $100/gear/explosive/Limit one per town stay\n1 Dark Stone icon\nDiscard to make all your dynamite do +2 until the end of the adventure.\nRail Spike - $200/gear/exploration/Limit One\nDiscard to prevent the Darkness from moving forward a space on the Depth Track."
       }
     ]
   },
@@ -435,16 +435,16 @@
     "roll": [12],
     "name": "Outlaw Town",
     "tags": ["town", "outlaw", "fringe"],
-    "flavor_text": "",
+    "flavor_text": "A wretched den of thieves, smugglers, and cutthroats, Outlaw Towns are settlements that have fallen into lawless chaos!  With no sheriff, the town is run by the toughest outlaw of the hour.",
     "special_rules":
     [
       {
         "title": "Lawless",
-        "effect_text": ""
+        "effect_text": "All Law heroes are considered to be Wanted while in town (but do not gain Keyword Outlaw) and all other heroes may ignore Wanted."
       },
       {
         "title": "Scum and Villainy",
-        "effect_text": ""
+        "effect_text": "At the start of every day in town, each hero must roll a d6.  On the roll of 1 or 2, that hero gains an Unwanted Attention marker."
       }
     ],
     "town_type_daily_events":
@@ -452,43 +452,43 @@
       {
         "roll": 1,
         "title": "The Wild West",
-        "text": ""
+        "text": "A rival gang of bandits sweeps through the town, threatening to burn the place down.  The town stay is over for all heroes at the end of the current day (still roll for Town Event).  The next adventure is automatically the Town Adventure Shootout in the Streets.  This may be avided if all heroes agree to flee before the shooting begins, though they start the next adventure with no grit."
       },
       {
         "roll": 2,
         "title": "Tales of Mischief",
-        "text": ""
+        "text": "Each hero makes a Lore 6+ test to impress the locals with stories of their exploits.  Gain 50XP for every 6+ rolled."
       },
       {
         "roll": 3,
         "title": "That Does It",
-        "text": ""
+        "text": "One random hero is called out by a mean looking thug.  That hero's day is over and they must immediately play the Solo Town Adventure High Noon Duel or flee town."
       },
       {
         "roll": 4,
         "title": "Taking Notice",
-        "text": ""
+        "text": "One random hero immediately gains d3 Unwanted Attention markers."
       },
       {
         "roll": 5,
         "title": "Hold Up",
-        "text": ""
+        "text": "As the heroes turn the corner, they are confronted by armed gunmen!  Each hero loses d6x$50."
       },
       {
         "roll": 6,
         "title": "Spread the Wealth",
-        "text": ""
+        "text": "Every hero gains d6x$100 as their share of the latest haul brought back to town."
       }
     ],
     "extra_options": 
     [
       {
         "title": "Rescue a Kidnapping Victim",
-        "text": ""
+        "text": "Limit once per town stay for all heroes.\nStumbling acress a small room with someone tied up inside, you determine that they have been kidnapped and are awaiting a ransom to be paid.  A ransom that may never come!\nAny heroes that want to participate may give up their day in town to help rescue the captive.  Between all of the heroes, you must pass one Cunning 5+ test (the plan), one Strength 5+ test (the breakout), and one Agility 5+ test (the getaway).  For each of these tests that is failed, all heroes taking part take d6 wounds ignoring defense and gain an Unwanted Attention marker.  As long as at least one of the tests was passed, the rescue is a success!  Every hero taking part gains 100XP and $300 as a reward for setting the captive free!"
       },
       {
         "title": "Highly Illegal Ammo",
-        "text": ""
+        "text": "Highly Illegal Ammo\nThe following Ammo may be purchased at the Smuggler's Den and lasts for one Adventure (replaces any current Ammo when used)\nDiablo Bullets - $300/gear/ammo\nTwo Darkstone Icons\nAll of your Gun hits do an extra 1 wound to the target, bypassing defense, armor, cover, and abilities."
       }
     ]
   }

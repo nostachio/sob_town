@@ -48,12 +48,12 @@ def town_type():
     print("Dice rolled: ", die_1, " and ", die_2, ", ", dice_total)
     with open("town_type.json") as town_type_json:
         town_type_table = json.load(town_type_json)
-    # print("0,roll ", town_type_table[0]['roll'])
     for x in range(0, len(town_type_table)):
         if dice_total in town_type_table[x]['roll']:
             town_type_name = town_type_table[x]['name']
-    print("The town type is " + town_type_name)
-    print()
+            print("The town type is " + town_type_name)
+            print()
+            print(town_type_table[x]['flavor_text'])
     print()
     return town_type_name
 
