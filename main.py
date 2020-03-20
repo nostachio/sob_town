@@ -19,12 +19,12 @@ def main():
     type = town_generation.town_type()
     locations = town_generation.generate_town(size, type)
     text = town_generation.town_special_effects(type)
-    daily_event_deck = town_days.initialize_daily_event_deck()
+    daily_event_deck = []
     days_since_last_event = 0
     while True:
-        daily_event_deck, events =\
+        daily_event_deck, daily_events =\
          town_days.day_in_town_start(daily_event_deck, type)
-        display.display_town(locations, text, type, events)
+        display.display_town(locations, text, type, daily_events)
         days_since_last_event = \
             town_days.end_of_day_prompt(days_since_last_event)
     return
