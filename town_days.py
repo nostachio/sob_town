@@ -6,6 +6,7 @@ import random
 import sys
 import textwrap
 import game_data
+import json
 
 
 def initialize_daily_event_deck():
@@ -14,7 +15,7 @@ def initialize_daily_event_deck():
     return initialized_event_deck
 
 
-def day_in_town_end(event_table, days_since_last_event):
+def day_in_town_end(days_since_last_event):
     """Check for town event."""
     roll = random.randrange(1, 6)
     print("Days since last event:", days_since_last_event)
@@ -25,11 +26,18 @@ def day_in_town_end(event_table, days_since_last_event):
         event_roll = random.randrange(2, 12)
         print("The event roll is", event_roll)
         print('*' * 80)
-        if event_roll == 7 or event_roll == 8:
-            event_roll = 6
-        if event_roll == 11:
-            event_roll = 10
-        print(textwrap.dedent(event_table[event_roll]))
+        with open("town_events.json") as town_events_table:
+            event_table = json.load(town_events_table)
+        for x in range(0, len(event_table)):
+            if event_roll in event_table[x]["roll"]:
+                print(textwrap.fill(event_table[x]["title"], 80))
+                print()
+                print(textwrap.fill(event_table[x]["flavor_text"], 80))
+                print()
+                print(textwrap.fill(event_table[x]["effect_text"], 80))
+                print()
+                break
+        # print(textwrap.dedent(event_table[event_roll]))
         print('*' * 80)
         input("Press enter when ready for the next day.")
     else:
@@ -66,8 +74,7 @@ def end_of_day_prompt(days_since_last_event):
     print()
     if quit == "quit":
         sys.exit
-    days_since_last_event = day_in_town_end(game_data.town_event_table,
-                                            days_since_last_event)
+    days_since_last_event = day_in_town_end(days_since_last_event)
     return days_since_last_event
 #
 # Set darkness tracker on 1 on Days Since Last Event

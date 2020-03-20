@@ -1,0 +1,50 @@
+[
+  {
+    "roll": [2],
+    "title": "VOID TWISTER",
+    "flavor_text": "A Void Twister sweeps through the town, annihilating it in a flash!  Livestock, buildings, and people are swept away right before your eyes and it's coming toward you!",
+    "effect_text": "Every hero must make an Agility 5+ or Strength 5+ to avoid or resist the powerful pull of the twister!  If failed, the Hero is swept away, broken and battered - they are killed.  The town is destroyed and the town stay is over."
+  },
+  {
+    "roll": [3],
+    "title": "TOWN OVERRUN",
+    "flavor_text": "The town is overrun with monsters, slaughtering people and razing buildings.  It's time to get out while you can!",
+    "effect_text": "Each hero in town must roll a number of dice equal to the number of Dark Stone they currently carry.  For every roll of 1, that hero takes d6 wounds, ignoring Defense, as they are assaulted by monsters.  Any hero KO'd by this is killed in the firey ruins of the town.  The town is destroyed and the town stay is over."
+  },
+  {
+    "roll": [4],
+    "title": "FIRE",
+    "flavor_text": "A fire has broken out, setting the town ablaze.",
+    "effect_text": "d3 random town locations burn to the ground in the fire and are destroyed."
+  },
+  {
+    "roll": [5],
+    "title": "THE FEVER",
+    "flavor_text": "A terrible sickness spreads through town, causing Void Boils and death.",
+    "effect_text": "Each hero must make a Spirit 6+ test to avaid the plague.  If successful, gain 10XP.  If failed, take d6+3 Wounds, ignoring Defense."
+  },
+  {
+    "roll": [6, 7, 8],
+    "title": "SPREADING FEAR",
+    "flavor_text": "Fear Spreads through the town as the days grow dark and the demonic attacks more frequent.",
+    "effect_text": "One Random Town Location closes up shop and may not be visited for the rest of this town stay.  The Camp Site dissipates (may no longer be used or visited) and the Hotel doubles their current rate."
+  },
+  {
+    "roll": [9],
+    "title": "INTENSE DREAD",
+    "flavor_text": "A dark cloud on the horizon makes your soul sink as you see a Void Twister in the distance wipe through a neighboring town!",
+    "effect_text": "Each hero must make a Cunning 6+ test.  If successful, gain 10XP.  If failed, take d6+3 Sanity Damage, ignoring Willpower.  If no hero passes this test, also add a Growing Dread card to the stack at the start of the next adventure."
+  },
+  {
+    "roll": [10, 11],
+    "title": "THE END IS NIGH",
+    "flavor_text": "The people are stocking up on supplies and weapons, feeling like the next big attack could come at any time!",
+    "effect_text": "All prices in town are +$50 due to the increasing demand."
+  },
+  {
+    "roll": [12],
+    "title": "ROTTEN FROM WITHIN",
+    "flavor_text": "It has become clear that the officials running this town are twisted and tainted by their greed, and the very Dark Stone they have been hearding!  When they see something they want, they take it!",
+    "effect_text": "Randomly choose a hero to be singled out by the corrupt sheriff.  That hero must either hand over P Dark Stone or one item with a Dark Stone icon to pay off the 'Law Man' and his mutated gang of thugs.  If the hero has neither, the gang opens fire on them and they must escape town.  They take 2d6 Wounds, ignoring Defense, and the town stay is over."
+  }
+]
