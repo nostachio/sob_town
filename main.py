@@ -22,7 +22,8 @@ def main():
     daily_event_deck = town_days.initialize_daily_event_deck()
     days_since_last_event = 0
     while True:
-        daily_event_deck, events = town_days.day_in_town_start(daily_event_deck)
+        daily_event_deck, events =\
+         town_days.day_in_town_start(daily_event_deck, type)
         display.display_town(locations, text, type, events)
         days_since_last_event = \
             town_days.end_of_day_prompt(days_since_last_event)
