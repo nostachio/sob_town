@@ -1,0 +1,218 @@
+{
+  "11":
+  {
+    "title": "Possession",
+    "flavor_text": "As you settle in for the night around the fire, there is an odd chill in the air.  With a contorted face and twisted form, one of the posse is possessed by a vile demon, lashing out and speaking in tongues before regaining control!  'You will all die before the might of the Ancient Ones.  rez'chu'kau'to'!  Your souls will burn!  Has'tefor'i!  In the fires of Cynder!  Beli'al will have his revenge!",
+    "effect_text": "The hero that rolled this result immediately loses 1 sanity permanently and must roll a d6.  On the roll of 1-3, they must also roll once on the Madness Chart as a result of the horrific experience."
+  },
+  "12":
+  {
+    "title": "Bleached Bones",
+    "flavor_text": "The sun burns hot and the desert here is filled with the bleached bones of those that perished here.",
+    "effect_text": "Each hero must make an Agility 5+ test to avoid getting caught up in the shifting sands.  If passed, gain 10 XP.  If failed, your Side Bag is torn on a jagged rib cage as you struggle to get free of the sand's grip.  Until you get it repaired by paying $500 at a Blacksmith in town, your Side Bag capacity is reduced by 2."
+  },
+  "13":
+  {
+    "title": "Dark Dreams",
+    "flavor_text": "Camping along the trail, your dreams are filled with dark visions of the future and an impending dread.",
+    "effect_text": "Each hero must make a Spirit 6+ test.  If passed, gain 10XP and recover 1 grit.  If failed, take d6 sanity damage (ignoring willpower) that carry over to the next adventure."
+  },
+  "14":
+  {
+    "title": "Shooting Star",
+    "flavor_text": "Blazing across the night sky, the burning trail of a shooting star catches your eye.  A good omen perhaps?",
+    "effect_text": "The hero that rolled this result takes a Lore 6+ test.  Success brings the recovery of d3 grit."
+  },
+  "15":
+  {
+    "title": "Devil's Fork",
+    "flavor_text": "The rock formation up ahead is known in these parts as the Devil's Fork.  As you stare up at it, you feel a chill run through your blood.",
+    "effect_text": "Every hero must roll a d6 for each corruption point and mutation they have.  On the roll of 1 or 2, take an additional corruption point, ignoring willpower."
+  },
+  "16":
+  {
+    "title": "Shadows Out of Time",
+    "flavor_text": "The shadows playing across the canyon walls seem to move and flicker out of sync with the environment around them.  You almost feel as though you can see the vast machinations of the universe playing out in the dark forms.",
+    "effect_text": "The hero that rolled this hazard must make a Cunning 6+ test.  If passed, the Posse gains an extra Revive Token for use during the next adventure.  For every 1 rolled during the test, the hero loses 1 sanity permanently as their mind begins to crumble under the weight of forbidden knowledge."
+  },
+  "21":
+  {
+    "title": "Mimic Beast",
+    "flavor_text": "Waking in the night, you see one of the other Posse members moving about.  As your eyes focus, you see that they are covered in blood and seem to have torn apart one of the horses and are eating it raw!  With a sudden motion, they look over at you, their eyes reflecting inhumanly in the flickering fire light, before running off into the darkness.",
+    "effect_text": "One random hero must discard any Transport they have.  Also, one other random hero is missing!  Who knows how long this Mimic Beast was posing as your friend.  Following the trail of gore, you find the missing hero tied up and savagely beaten in a ramshackle lair.  The hero rejoins the posse, but takes d6 wounds (ignoring defense) that carry over to the next adventure and loses d6x25XP"
+  },
+  "22":
+  {
+    "title": "Blighted Desert",
+    "flavor_text": "The desert is dry and unforgiving.  As you come across the first watering hole for miles, the area around it is littered with the bones of the dead.  Not a good sign.",
+    "effect_text": "Each hero loses 1 grit.  If they do not have a grit to lose, instead take d3 wounds (ignoring defense) that carry over to the next adventure."
+  },
+  "23":
+  {
+    "title": "Living Hills",
+    "flavor_text": "Something's not right here.  The hills surrounding the valley you are in seem to be shifting and stirring before your eyes!  The road before you opens up to reveal a massive demonic maw waiting to devour you whole!",
+    "effect_text": "Each hero must make an Agility 5+ test to avoid the maw.  If passed, gain 15XP and you escape the trap.  If failed, you leap aside at the last moment.  Any transport you were riding is devoured by the beast and you lose 1 sanity permanently at the horrific sight of the creature."
+  },
+  "24":
+  {
+    "title": "Dark Stone Convoy",
+    "flavor_text": "As you ride up the trail, you come across a convoy of wagons carrying a load of Dark Stone and armed guards.  They tell you that the town up ahead is paying top dollar for any Dark Stone they can get their hands on.",
+    "effect_text": "During your town stay, any Dark Stone shards sold by the heroes are worth an extra +$25."
+  },
+  "25":
+  {
+    "title": "Blood Moon",
+    "flavor_text": "In the night sky, the moon looks giant on the horizon, darker than normal and blood red.",
+    "effect_text": "Until the end of the next adventure, all heroes are +1 Spirit and any Depth Event (doubles) rolled while Holding Back the Darkness adds a Growing Dread card to the stack instead of its normal result."
+  },
+  "26":
+  {
+    "title": "Void Storm",
+    "flavor_text": "A Void Storm has swept through the area, devastating the region, carrying away buildings, and mutating the livestock and people.  It is not a pretty sight.",
+    "effect_text": "When you arrive in town, 2 random locations have been destroyed by the Void Storm and cannot be visited during this Town Stay.  Also, every hero gains 1 corruption point (ignoring willpower) for passing through the residual energy of the storm."
+  },
+  "31":
+  {
+    "title": "March of the Lost Army",
+    "flavor_text": "You hear a thunderous roar from up ahead and pull off to the side of the trail to take cover.  Moments later, a massive army of the dead comes into view.  Marching in formation, with tattered flags flying and a battery of Hell Cannons in tow, a thousand strong Lost Army passes by with hate in their soulless black eye sockets.",
+    "effect_text": "Each hero must make a Luck 5+ test.  If passed, gain 20XP.  If failed, the Lost Army is alerted to your presence and the hero must make a run for it, riding as fast as possible to get away.  In your haste to escape, the hero loses 1 item of their choice, pulled away by the clawing hands of the spectral cavalry sent to give chase."
+  },  
+  "32":
+  {
+    "title": "Plague Church",
+    "flavor_text": "Approached on the road by a tattered figure in dirty robes, he tells you of a church nearby, beset by a plague of pestilence.",
+    "effect_text": "Each hero must decide to turn away and keep on the road, or ride out to help this cursed group.  Each hero that decides to help must spend 1 grit or take d6 corruption hits as they are ravaged by the plague, then make a Spirit 5+ test.  If successful, gain 25XP.  If at least 5 successes are ralled between all heroes helping, the plague is warded off and the grateful Church gives the heroes its prized artifact for coming to their aid.  Draw a Mine Artifact to keep (roll off if you can't decide who keeps it)."
+  },
+  "33":
+  {
+    "title": "Harried by Hellbats",
+    "flavor_text": "As the heroes move through the countryside, dark swarms of Hellbats follow overhead, swooping down to terrorize them as they go.",
+    "effect_text": "Each hero must roll a d6 for every Dark Stone they are carrying (including icons and upgrades).  On a roll of 1, it is snatched away by a Hellbat and must be discarded."
+  },
+  "34":
+  {
+    "title": "Burning Farmstead",
+    "flavor_text": "Pillars of black smoke rise in the distance and as you approach you discover a farmstead in ruins and ablaze.  Screams call out from the firey inferno.",
+    "effect_text": "Each hero may decide to turn away or brave the burning building to look for survivors.  If you enter the building, make a Strength 5+ test to move through the flaming debris.  If failed, you are singed by the fire and must flee the building, coughing from the thick smoke.  Take d6 wounds (ignore defense) that carry over to the next adventure.  If passed, gain 25XP and roll a d6 to see what you find in the fire.\n1: Trick - A shiny demon has lured you into the blaze, only to disappear as a section of the roof comes down on your head.  Roll once on the Injury Chart.\n2-5: Survivor - You find a survivor and pull them from the burning building.  Gain d6x10XP.\n6: Hero of the Day - You find a small child and carry them through the flaming rubble safely.  Gain d6x25XP as well as 1 Health and Sanity (permanently)."
+  },
+  "35":
+  {
+    "title": "Ruined Fort",
+    "flavor_text": "You come acress the smoking ruins of a military fort.  It looks as though it was besieged and overrun sometime in the last few days.  Your heart sinks.",
+    "effect_text": "Each hero loses 1 grit.  If you do not have a grit to lose, instead take d3 sanity damage (ignoring willpower) that carry over to the next adventure."
+  },
+  "36":
+  {
+    "title": "Mutant Warlord",
+    "flavor_text": "A massive Mutant Warlord riding atop a savage looking armored beast rides out to confront you, flanked by his gang of hideous outriders.  Pay the toll to cross his land or suffer the consequences.",
+    "effect_text": "Each hero must either pay d6x$50 or make a Lore 6+ test to overcome the Mutant Warlord and his gang.  If passed, gain d6 Dark Stone as you steal from the Warlord's Tomb Chest and escape.  If failed, you are pulled from your horse and dragged behind the Warlord's beast before being rolled over a cliff and plummeting to the icy river below.  Lose d3 health permanently."
+  },
+  "41":
+  {
+    "title": "Stampede",
+    "flavor_text": "The earth shakes and the thunderous onslaught is deafening as a massive herd of buffalo stampede across the trail around you.",
+    "effect_text": "Each hero must make a Strength 4+ test to keep control of their mount.  If possed, gain 15XP as you stare down the unruly herd.  If failed, your horse panics at the chaos and throws you!  Roll once on the injury chart, using 3d6 and discarding the lowest die."
+  },
+  "42":
+  {
+    "title": "Raging River",
+    "flavor_text": "A raging river lays before you, blocking the path to the town you were heading towards.",
+    "effect_text": "The heroes must either give up their destination and go back to the tiny roadside town they passed a few miles back (Small Town, immediate arrival) or attempt to ford the deadly river and press on.  Each hero must make a Strength 5+ test to get across.  If failed, roll a d6 for every item you have that has weight.  On a roll of 1, discard it as it is swept away."
+  },
+  "43":
+  {
+    "title": "Flash Flood",
+    "flavor_text": "As you travel through the canyons, the skies open up with rain, causing a flash flood directly in your path.",
+    "effect_text": "Each hero must make a Luck 4+ test to avoid being swept away by the rushing waters.  If failed, roll a d6 for each token in your side bag.  On the roll of 1-3, it is swept away in the torrent of water."
+  },
+  "44":
+  {
+    "title": "Rail Line Construction",
+    "flavor_text": "You pass by a group of Mutant rail workers, working the cut to build a new rail line into the area.  Recognizing you as heroes in the fight against the Darkness, they cheer!",
+    "effect_text": "Each hero may heal 2d6 wounds/sanity in any combination.  Also, each hero may recover 1 grit for each mutation he has as the mutant rail workers cheer all the louder for champions of mutant-kind."
+  },
+  "45":
+  {
+    "title": "Bridge Destroyed",
+    "flavor_text": "The bridge across the canyon ahead has been demolished, either blown up to prevent demons from coming across or torn apart during a skirmish.  You'll have to find another way around, which will take time.  Time you don't have.",
+    "effect_text": "When you get to town, the heroes can spend no more than 2 days in town before starting their next adventure."
+  },
+  "46":
+  {
+    "title": "Wrecked Train",
+    "flavor_text": "The twisted hulk of a wrecked train fills the valley below, mangled and half buried in the rubble and debris.  It must have jumped the track or been forced off.  Looks like it has been here a while.",
+    "effect_text": "Each hero can decide to pass it by without giving it a second thought or to climb down into the wreckage to look for anything useful.  If you search the wrecked train, make a Cunning 5+ test.  If failed, you exhaust yourself trying to find a way inside without any luck.  Discard any grit you have.  If passed, roll a d6 to see what you find in the train.\n1: No Accident - This train was destroyed by the conductor in an effort to stop the evil that came aboard!  An evil that you just released!  Roll once on the Madness Table.\n2-5: Something Shiny - You find a few bits of gold in the wreck.  Gain d6x$50.\n6: Precious Find - You find a skeleton clutching something in its hands, something it deemed more valuable than its life.  Draw an artifact from a random world."
+  },
+  "51":
+  {
+    "title": "Sleeping Under the Stars",
+    "flavor_text": "As you drift off to sleep under tha starry sky, your thoughts turn to the vastness of time and space and all the horrors and wonders you have seen on your journeys.",
+    "effect_text": "Each hero makes a Lore 6+ test.  For each 6+ rolled, gain 1 health or 1 sanity permanently."
+  }, 
+  "52":
+  {
+    "title": "Bandits!",
+    "flavor_text": "Waylaid by Bandits on the road, the heroes fend off as many as they can.",
+    "effect_text": "The bandits surround each hero individually.  There are 5 bandits per hero and each hero must roll a d6 to see how many of htose bandits they defeat.  For every bandit you defeat, gain 10XP.  Foe each you do not defeat, lose $25, 1 Dark Stone, or 1 Gear or Artifact of your choice."
+  },
+  "53":
+  {
+    "title": "Circling Vultures",
+    "flavor_text": "Seeing the black vultures circling overhead reminds you that there is no safe haven in this forsaken place.  All will come to ruin in time and the vultures will have their feast in the end.",
+    "effect_text": "Every hero must make a Spirit 5+ test.  If passed, gaing 10XP and heal d3 sanity.  If failed, take d3 sanity damage (ignoring willpawer) that carry over to the next adventure."
+  },
+  "54":
+  {
+    "title": "Army Convoy",
+    "flavor_text": "Traveling the roads, the heroes come upon a massive U.S. Army convoy heading toward the same town to reinforce the outpost there.",
+    "effect_text": "When the heroes reach town, any rolls on the Camp Site Hazard chart or the Town Event Chart are +1 to the roll."
+  },
+  "55":
+  {
+    "title": "Massacred Wagon Train",
+    "flavor_text": "You come across the twisted wreckage and broken bodies of a wagon train, torn apart by creatures.",
+    "effect_text": "Each hero can decide to pass it by without looking too close or to sift through the gore to look for anything useful.  If you search the massacre, make a Luck 5+ test.  If failed, lose 1 sanity permanently as you are scarred by the horror of the things you find.  If passed, roll a d6 to see what you find.\n1-4: Gear - You find something of value.  Draw a Gear card.\n5: Artifact - Perhaps this is why the creatures attacked them.  Draw a Mine Artifact card.\n6: Survivor - You find someone still alive in the wreckage.  Packing them on your saddle, you race back to town.  Gain +1 Max Grit for your heroic efforts."
+  },
+  "56":
+  {
+    "title": "Void Hound Attack",
+    "flavor_text": "A pack of vicious Void Hounds have been tracking your posse for days and have found the opportunity to strike!",
+    "effect_text": "Each hero must make a Cunning 5+ test to outwit the Hounds or a Strength 5+ test to overpower them.  If passed, gain 25XP.  If failed, you are pulled from your saddle and ravaged by the creatures.  Roll a d6 for every clothing item you have (except Personal Items).  On a roll of 1 or 2, the item is town apart and destroyed in the savage attack."
+  },
+  "61":
+  {
+    "title": "Indian Curse",
+    "flavor_text": "Accidentally wandering into a sacred Indian burial ground, you realize too late the folly of what you have done.",
+    "effect_text": "Every hero immediately takes 3 horror hits for each mutation, corruption, and Dark Stone they currently have as they are terrorized by the vengeful spirits of the dead."
+  },
+  "62":
+  {
+    "title": "Dying Marshal",
+    "flavor_text": "You find a dying U.S. Marshal on the side of the trail, shot in the gut and bleeding out.  He tells you that his prisoner escaped and is headed for the same town you are.  You've got to stop him or who knows what he'll do.",
+    "effect_text": "When the heroes reach their destination, every hero gains d3 Unwanted Attention markers as the prisoner is on the lookout for anyone following him.  While in Town, any hero that rolls a double on a Location Event chart spots the prisoner and may ignore the result on the chart and the lest of that location visit to call him out and start a High Noon Duel Town Adventure against him.  If more than one hero spots him on the same day, either may engage him in the duel.  Roll off if contested.  If the duel is won, the hero gains an extra d6x$200 as a Bounty for the prisoner.  If the duel is failed, the hero rolls his injury on only a single d6 as the prisoner fights dirty.  Once a duel has been fought, the prisoner is either dead or escaped and may not be fought again."
+  },
+  "63":
+  {
+    "title": "Snake Oil Salesman",
+    "flavor_text": "You meet a traveling salesman on the road who excitedly opens up the sides of his cart and shows you his wares.  He spins a good yarn about the medicinal quality of his tonics.",
+    "effect_text": "Each hero must make a Cunning 5+ test.  If passed, you recognize a scam when you see one and pass on the deal.  If failed, you eagerly buy some of the elixirs only to discover that they are little more than flavored water and pungent herbs as the dust cloud from the salesman's cart disappears in the distance.  Lose d6x$25 and roll a d6.  On the roll of a 6, one of the elixirs is actually worthwhile.  Gain a Tonic Token."
+  },
+  "64":
+  {
+    "title": "Search Party",
+    "flavor_text": "You come across a search party, scouring the land for a lost child taken in the night by a dark creature.  They seem beaten down and weary as they tell you that this is the fifth child to have been taken and none have returned.",
+    "effect_text": "Each hero may decide to press on to their destination or to stop and help in the search for the missing child.  Any hero that decides to help must make a Spirit 6+ test.  If at least 3 successes are rolled between all heroes helping, the child is found and rescued from the clutches of the vile beast!  Each hero helping gains d6x$100 as a reward and may remove d3 corruption points.  Otherwise, the child is lost for good and every hero that helped loses 1 sanity permanently."
+  },
+  "65":
+  {
+    "title": "Gulch Ambush",
+    "flavor_text": "Traveling through a dusty gulch, you get a bad feeling... but it's too late!  Feathered arrows whiz past your head as a savage group of Black Fang tribe Indians descend from the cliff tops, hungry for Dark Stone!",
+    "effect_text": "Each hero must make an Agility 5+ or Lore 5+ test.  If passed, gain 25XP and you are able to evade the worst of the attack, escaping into the hills to meet up with the rest of the posse.  If failed, you are knocked to the ground as the Black Fang scavenge your belongings.  Lose d3 Dark Stone or 1 item with a Dark Stone Icon.  Due to your bumps and bruises, you lose all grit."
+  },
+  "66":
+  {
+    "title": "Traveler on the Road",
+    "flavor_text": "During your travels, you encounter a stranger along the road.",
+    "effect_text": "This result may not be re-rolled or canceled, nor may the results of the d6 you roll for the following:\n1-2: The Scarlet Shadow - Before you see it coming, the stranger draws on you and you see his face is covered in a red bandana!  Any hero in the posse that is keyword outlaw or that has 4 or more corruption points immediately loses d6x$50 as The Scarlet Shadow robs from the corrupt to give to those in need.  If none of the heroes fit this, all heroes may recover their max grit.\n3-5: Traveling Missionary - Walking the roads to help the fallen and those who have lost their path.  All heroes may fully heal their sanity and remove d3 corruption points.\n6: Shadowy Traveler - You meet a dark stranger on the road one night while the rest of the posse is asleep.  With a slippery voice he introduces himself as Mr. Scratch and makes you an offer that could be hard to refuse.  The hero who rolled this result may either take the deal, gaining d6x100XP and d6x$100, but if they ever roll this result again, Mr. Scratch has returned to collect his end of the bargain and takes your hero off into the night nover to be heard from again.  If you refuse the deal, make a Spirit 6+ or Cunning 6+ test to find a way out of it.  If passed, gain 50XP.  If failed, gain d6+1 corruption points (ignoring willpower) as Mr. Scratch disappears into the dark night."
+  }
+}

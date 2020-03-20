@@ -3,6 +3,8 @@
 Defines functions used for travel.
 """
 import random
+import json
+import textwrap
 from end_of_adventure import ready
 
 
@@ -43,8 +45,22 @@ def travel_hazards(hero_number, town_size):
     print()
     print()
     print("There are ", hazards, " total hazards.")
-    print("See Frontier Town Adventure Book pp. 19-22 for the rolling chart.")
-    ready()
+    with open("travel_hazards.json") as travel_hazards_json:
+        travel_hazards = json.load(travel_hazards_json)
+    for hazard in range(0, hazards):
+        tens_roll = random.randrange(1, 6)
+        ones_roll = random.randrange(1, 6)
+        hazard_roll = str(tens_roll) + str(ones_roll)
+        print("Hazard Chart roll:", hazard_roll)
+        print('*' * 80)
+        print(textwrap.fill(travel_hazards[hazard_roll]['title'], 80))
+        print()
+        print(textwrap.fill(travel_hazards[hazard_roll]['flavor_text'], 80))
+        print()
+        print(textwrap.fill(travel_hazards[hazard_roll]['effect_text'], 80))
+        print('*' * 80)
+        print("There are ", (hazards - hazard) - 1, " hazards left.")
+        ready()
     return
 
 
