@@ -1,13 +1,495 @@
-{
-  "2": "Town Ruins",
-  "3": "Haunted Town",
-  "4": "Plague Town",
-  "5": "Rail Town",
-  "6": "Standard Frontier Town",
-  "7": "Standard Frontier Town",
-  "8": "Standard Frontier Town",
-  "9": "Mining Town",
-  "10": "River Town",
-  "11": "Mutant Town",
-  "12": "Outlaw Town"
-}
+[
+  {
+    "roll": [2],
+    "name": "Town Ruins",
+    "tags": ["town", "destroyed"],
+    "flavor_text": "It is not uncommon for entire towns to face catastrophy on the frontier; be it from a Void Twister sweeping through town, being overrun by demons or bandits, or burned to the ground by fire.",
+    "special_rules":
+    [
+      {
+        "title": "Rubble and Ruin",
+        "effect_text": "At the start of the town stay, roll a d6 for each location in town.  On the roll of 1, 2, or 3, that location is destroyed."
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Help to Rebuild",
+        "text": ""
+      },
+      {
+        "title": "Search the Rubble",
+        "text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "Cult Uprising",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "Location Rebuilt",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "Construction Accident",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "Movement in the Rubble",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Dust Storm",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "What Lies Beneath",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [3],
+    "name": "Haunted Town",
+    "tags": ["town", "cursed", "ghost", "strange"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Angry Ghosts",
+        "effect_text": ""
+      },
+      {
+        "title": "Breaking the Curse",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "Possession",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "Moving Sale",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "Vicious Spectres",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "Sickly Mist",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Warning from Beyond",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "Weeping Statue",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Buy Cursed Artifacts",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [4],
+    "name": "Plague Town",
+    "tags": ["town", "cursed", "plague"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Keep Your Distance",
+        "effect_text": ""
+      },
+      {
+        "title": "The Plague",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "Bring Out Yer Dead!",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "Building Decay",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "The Sisters of Sorrow",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "It's the End of Days",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Dire Strain",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "Seen the Worst of It",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Tend to the Sick",
+        "text": ""
+      },
+      {
+        "title": "Experimental Medical Supplies",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [5],
+    "name": "Rail Town",
+    "tags": ["town", "train", "transit"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Fresh Supplies",
+        "effect_text": ""
+      },
+      {
+        "title": "Rail Travel",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "The Hell Train",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "News Travels Fast",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "U.S. Army Train",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "Oh, They'll Pay",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Train Robbery",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "Big City Reporter",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Send a Telegraph",
+        "text": ""
+      },
+      {
+        "title": "Rob the Train",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [6, 7, 8],
+    "name": "Standard Frontier Town",
+    "tags": ["town"],
+    "flavor_text": "Boring old town.",
+    "special_rules": [],
+    "town_type_daily_events": [],
+    "extra_options": []
+  },
+  {
+    "roll": [9],
+    "name": "Mining Town",
+    "tags": ["town", "resource", "mining"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Well Supplied",
+        "effect_text": ""
+      },
+      {
+        "title": "Rich Local Deposits",
+        "effect_text": ""
+      },
+      {
+        "title": "Void Activity",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "Dark Stone Explosion",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "Dark Stone Overflowing",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "Blast Mining Accident",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "We Found Somethin' Strange",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Dust",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "It Came from Down Deep",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Purchase Dark Stone",
+        "text": ""
+      },
+      {
+        "title": "Mining Tools",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [10],
+    "name": "River Town",
+    "tags": ["town", "water", "transit"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Wealthy Town",
+        "effect_text": ""
+      },
+      {
+        "title": "River Travel",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "Overboard",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "News from Down River",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "Famous Gambler in Town",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "There's Somthin' in the Water",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Flooding",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "I've Got Just What You Need",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Find Work on the Docks",
+        "text": ""
+      },
+      {
+        "title": "Black Market Alley",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [11],
+    "name": "Mutant Town",
+    "tags": ["town", "mutant", "strange"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Distrust",
+        "effect_text": ""
+      },
+      {
+        "title": "Something in the Water",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "The Scafford Gang",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "You're Our Hero!",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "What's Gotten into You Boy?",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "Tainted Well",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Mutant Plague",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "Rejuvinating Spirits",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Go to Work on the Cut",
+        "text": ""
+      },
+      {
+        "title": "Railworker Supplies",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "roll": [12],
+    "name": "Outlaw Town",
+    "tags": ["town", "outlaw", "fringe"],
+    "flavor_text": "",
+    "special_rules":
+    [
+      {
+        "title": "Lawless",
+        "effect_text": ""
+      },
+      {
+        "title": "Scum and Villainy",
+        "effect_text": ""
+      }
+    ],
+    "town_type_daily_events":
+    [
+      {
+        "roll": 1,
+        "title": "The Wild West",
+        "text": ""
+      },
+      {
+        "roll": 2,
+        "title": "Tales of Mischief",
+        "text": ""
+      },
+      {
+        "roll": 3,
+        "title": "That Does It",
+        "text": ""
+      },
+      {
+        "roll": 4,
+        "title": "Taking Notice",
+        "text": ""
+      },
+      {
+        "roll": 5,
+        "title": "Hold Up",
+        "text": ""
+      },
+      {
+        "roll": 6,
+        "title": "Spread the Wealth",
+        "text": ""
+      }
+    ],
+    "extra_options": 
+    [
+      {
+        "title": "Rescue a Kidnapping Victim",
+        "text": ""
+      },
+      {
+        "title": "Highly Illegal Ammo",
+        "text": ""
+      }
+    ]
+  }
+]
