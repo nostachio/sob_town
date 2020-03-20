@@ -47,7 +47,7 @@ def town_spaces(town_size, town_type):
     if town_size == "large":
         spaces_available = 8
     if town_type == "River Town":
-        town_size += 1
+        spaces_available += 1
     return spaces_available
 
 
