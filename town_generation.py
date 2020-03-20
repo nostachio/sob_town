@@ -3,20 +3,8 @@
 These functions are used to generate a town.
 """
 import random
+import json
 
-
-town_type_array = {2: "Town Ruins",
-                   3: "Haunted Town",
-                   4: "Plague Town",
-                   5: "Rail Town",
-                   6: "Standard Frontier Town",
-                   7: "Standard Frontier Town",
-                   8: "Standard Frontier Town",
-                   9: "Mining Town",
-                   10: "River Town",
-                   11: "Mutant Town",
-                   12: "Outlaw Town",
-                   }
 possible_town_locations = ["Blacksmith",
                            "Frontier Outpost",
                            "Church",
@@ -58,7 +46,9 @@ def town_type():
     dice_total = die_1 + die_2
     print("Town type:")
     print("Dice rolled: ", die_1, " and ", die_2, ", ", dice_total)
-    town_type_name = town_type_array[dice_total]
+    with open("town_type.json") as town_type_json:
+        town_type_table = json.load(town_type_json)
+    town_type_name = town_type_table[str(dice_total)]
     print("The town type is " + town_type_name)
     print()
     print()
