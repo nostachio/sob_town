@@ -45,11 +45,22 @@ def day_in_town_end(days_since_last_event):
     return days_since_last_event
 
 
-def draw_daily_event(daily_event_deck):
+def draw_daily_event(daily_event_deck, town_type):
     """Draw a daily event."""
     if len(daily_event_deck) == 0:
         daily_event_deck = initialize_daily_event_deck()
     event = random.sample(daily_event_deck, 1)
+    if town_type != "Standard Frontier Town" and \
+            event[0]['title'] == "Just another day on the frontier":
+        with open("town_type.json") as town_type_json:
+            town_type_table = json.load(town_type_json)
+        event_roll = random.randrange(1, 6)
+        for x in town_type_table[0]:
+            if town_type_table[x]['name'] == town_type:
+                event_chart = town_type_table[x]['town_type_daily_events']
+                for y in event_chart[0]:
+                    if event_chart[y]['roll'] == event_roll:
+                        event = event_chart[y]
     return event[0], daily_event_deck
 
 
@@ -57,10 +68,11 @@ def day_in_town_start(daily_event_deck, town_type):
     """Draw Daily events."""
     print("Daily Event:")
     events = []
-    new_event, daily_event_deck = draw_daily_event(daily_event_deck)
+    new_event, daily_event_deck = draw_daily_event(daily_event_deck, town_type)
     events.append(new_event)
     if town_type == "Rail Town":
-        new_event, daily_event_deck = draw_daily_event(daily_event_deck)
+        new_event, daily_event_deck = draw_daily_event(daily_event_deck,
+                                                       town_type)
         events.append(new_event)
     return daily_event_deck, events
 
